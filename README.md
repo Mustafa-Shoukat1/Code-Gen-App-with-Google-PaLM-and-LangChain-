@@ -1,4 +1,4 @@
-<h1 style="color: #6a0dad; font-family: 'Times New Roman', Times, serif;">Integrating GooglePalm LLM with LangChain using API </h1>
+<h1 style=" color: #6a0dad; font-family: 'Times New Roman', Times, serif;">Integrating GooglePalm LLM with LangChain using API </h1>
 
 
 ![Sample Image](https://i.ytimg.com/vi/R6WNU28MgQ0/maxresdefault.jpg)
@@ -13,7 +13,7 @@
         <p style="color: #000000; font-size: 16px; font-style: italic; margin: 10px 0;">
             "Community empowers growth through shared knowledge and mutual support."
         </p>
-#        <p style="color: #27AE60; font-size: 16px; font-style: italic; margin: 10px 0;">
+        <p style="color: #27AE60; font-size: 16px; font-style: italic; margin: 10px 0;">
             Dive into code generation using Google PaLM and LangChain in this notebook. 💻🔧 Explore automated code generation, including functions, data loading, and Hugging Face models. 🤖📊✨ Get hands-on with practical examples and see the power of these tools in action! 📈📝🔍🌟💬💡
         </p>
         <h2 style="color: red; margin-top: 15px; font-size: 28px;">Contact Information</h2>
