@@ -1,8 +1,98 @@
-<h1 style=" color: #6a0dad; font-family: 'Times New Roman', Times, serif;">Integrating GooglePalm LLM with LangChain using API </h1>
+Here's a Markdown version of your README file that matches the content and structure of your notebook:
 
+```markdown
+# Welcome!
+
+I'm Mustafa Shoukat, a Generative AI Expert. I'm in the world of LLMs and exploring various concepts and techniques to enhance my skills. In this repository, I'll unlock the potential of Google PaLM for code generation with precision and efficiency.
+
+_"Community empowers growth through shared knowledge and mutual support."_
+
+Dive into code generation using Google PaLM and LangChain in this notebook. 💻🔧 Explore automated code generation, including functions, data loading, and Hugging Face models. 🤖📊✨ Get hands-on with practical examples and see the power of these tools in action! 📈📝🔍🌟💬💡
+
+## Contact Information
+
+| Name           | Email                          | LinkedIn | GitHub                  | Kaggle                   | LeetCode                  |
+|----------------|--------------------------------|----------|-------------------------|--------------------------|---------------------------|
+| Mustafa Shoukat | mustafashoukat.ai@gmail.com    | [LinkedIn Badge](https://www.linkedin.com/in/mustafashoukat/) | [GitHub Badge](https://github.com/Mustafa-Shoukat1) | [Kaggle Badge](https://www.kaggle.com/mustafashoukat) | [LeetCode Badge](https://leetcode.com/u/MustafaShoukat/) |
+
+## Installing Libraries
+
+```python
+!pip install langchain langchain_community
+!pip install google-generativeai
+```
+
+## Integrating Google PaLM LLM with LangChain using API
 
 ![Sample Image](https://i.ytimg.com/vi/R6WNU28MgQ0/maxresdefault.jpg)
 
+```python
+from langchain.llms import GooglePalm
+
+api_key = 'AIzaSyCWtLDiKOfa_5_GNV-4cNTjD0Z6To1gt40'
+llm = GooglePalm(google_api_key=api_key, temperature=0.2)
+```
+
+## Make Test Predictions via Google PaLM
+
+```python
+llm("What is Generative AI and the role of Google PaLM? Tell me in one line.")
+```
+
+## Define a Prompt Template for Code Generation
+
+```python
+from langchain.prompts import PromptTemplate
+
+# Define a prompt template for code generation
+prompt_template = PromptTemplate(
+    input_variables=["task"],
+    template="Generate a {task} in Python.",
+)
+prompt_template
+```
+
+## Define a Function for Code Generation
+
+```python
+def generate_code(task):
+    prompt = prompt_template.format(task=task)
+    return llm.invoke(prompt)
+```
+
+## User Queries for Code Generation
+
+```python
+tasks = [
+    "Function that calculates the factorial of a number",
+    "Function to find the maximum element in an array",
+    "Give me code for a complete application of langchain.llms with Google PaLM code generation application",
+    "Give me code to load SQL with Python in a Jupyter notebook",
+    "Give me code to load NLP reviews classification model for Hugging Face"
+]
+```
+
+## Generate Code for Each Task
+
+```python
+for task in tasks:
+    print(f"Task: {task}\n")
+    print(f"Generated Code:\n{generate_code(task)}\n")
+    print("="*50 + "\n")
+```
+
+## Define Complex Query for Code Generation
+
+```python
+print(f"Generated Code:\n{generate_code('''Create dummy data and generate code to load a sentiment analysis model from the Hugging Face pipeline using a simple model. Provide the complete code for a Kaggle kernel.''')}\n")
+print("="*50 + "\n")
+```
+
+## Additional Information
+
+<h1 style="color: #6a0dad; font-family: 'Times New Roman', Times, serif;">Integrating Google PaLM LLM with LangChain using API</h1>
+
+![Sample Image](https://th.bing.com/th/id/OIP.HMwi10r0TW11pUc-9yZEeQHaE8?rs=1&pid=ImgDetMain)
 
 <div style="position: relative; text-align: center; background-image: url('https://th.bing.com/th/id/OIP.FhY2jL9E3OtyWAmmT_fFaAHaDt?w=341&h=175&c=7&r=0&o=5&dpr=1.5&pid=1.7'); background-size: cover; background-position: center; border-radius: 20px; border: 2px solid #64B5F6; padding: 15px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4), 0px 6px 20px rgba(0, 0, 0, 0.19); transform: perspective(1000px) rotateX(5deg) rotateY(-5deg); transition: transform 0.5s ease-in-out;">
     <div style="position: relative; z-index: 1; background-color: rgba(255, 255, 255, 0.9); backdrop-filter: blur(10px); border-radius: 20px; padding: 20px;">
@@ -46,14 +136,4 @@
                 </td>
                 <td style="padding: 8px;">
                     <a href="https://leetcode.com/u/MustafaShoukat/" target="_blank">
-                        <img src="https://img.shields.io/badge/LeetCode-FC6D26.svg?style=for-the-badge&logo=LeetCode&logoColor=white" alt="LeetCode Badge" style="border-radius: 5px; width: 100px;">
-                    </a>
-                </td>
-            </tr>
-        </table>
-    </div>
-</div>
-
-
-![Sample Image](https://th.bing.com/th/id/OIP.HMwi10r0TW11pUc-9yZEeQHaE8?rs=1&pid=ImgDetMain)
-
+                        <img src="https://img.sh
