@@ -1,4 +1,3 @@
-
 # Asalam alaikum warahmatullah wabarakatu!
 
 I'm Mustafa Shoukat, a Generative AI Expert. I'm in the world of LLMs and exploring various concepts and techniques to enhance my skills. In this repository, I'll unlock the potential of Google PaLM for code generation with precision and efficiency.
@@ -7,21 +6,23 @@ _"Community empowers growth through shared knowledge and mutual support."_
 
 Dive into code generation using Google PaLM and LangChain in this notebook. 💻🔧 Explore automated code generation, including functions, data loading, and Hugging Face models. 🤖📊✨ Get hands-on with practical examples and see the power of these tools in action! 📈📝🔍🌟💬💡
 
+[Code Gen App | Google PaLM & LangChain 🚀💻](https://www.kaggle.com/code/mustafashoukat/code-gen-app-google-palm-langchain/edit)
+
 ## Contact Information
 
-| Name           | Email                          | LinkedIn | GitHub                  | Kaggle                   | LeetCode                  |
-|----------------|--------------------------------|----------|-------------------------|--------------------------|---------------------------|
-| Mustafa Shoukat | mustafashoukat.ai@gmail.com    | [LinkedIn Badge](https://www.linkedin.com/in/mustafashoukat/) | [GitHub Badge](https://github.com/Mustafa-Shoukat1) | [Kaggle Badge](https://www.kaggle.com/mustafashoukat) | [LeetCode Badge](https://leetcode.com/u/MustafaShoukat/) |
-
+| Name           | Email                          | LinkedIn                                                        | GitHub                                              | Kaggle                                               | LeetCode                                                 |
+|----------------|--------------------------------|-----------------------------------------------------------------|-----------------------------------------------------|-----------------------------------------------------|----------------------------------------------------------|
+| Mustafa Shoukat | mustafashoukat.ai@gmail.com    | [LinkedIn Badge](https://www.linkedin.com/in/mustafashoukat/)   | [GitHub Badge](https://github.com/Mustafa-Shoukat1) | [Kaggle Badge](https://www.kaggle.com/mustafashoukat) | [LeetCode Badge](https://leetcode.com/u/MustafaShoukat/) |
 
 ![Sample Image](https://i.ytimg.com/vi/R6WNU28MgQ0/maxresdefault.jpg)
+
 ## Installing Libraries
 
-
+```bash
+!pip install langchain google-api-python-client
+```
 
 ## Integrating Google PaLM LLM with LangChain using API
-
-
 
 ```python
 from langchain.llms import GooglePalm
@@ -128,13 +129,4 @@ print("="*50 + "\n")
                 </td>
                 <td style="padding: 8px;">
                     <a href="https://www.kaggle.com/mustafashoukat" target="_blank">
-                        <img src="https://img.shields.io/badge/Kaggle-20beff.svg?style=for-the-badge&logo=Kaggle&logoColor=white" alt="Kaggle Badge" style="border-radius: 5px; width: 100px;">
-                    </a>
-                </td>
-                <td style="padding: 8px;">
-                    <a href="https://leetcode.com/u/MustafaShoukat/" target="_blank">
-                        <img src="https://img.sh
-
-
-[Code Gen App | Google PaLM & LangChain 🚀💻](https://www.kaggle.com/code/mustafashoukat/code-gen-app-google-palm-langchain/edit)
-
+                        <img src="https://img.shields.io/badge/Kaggle-20beff.svg?style=for-the-badge
