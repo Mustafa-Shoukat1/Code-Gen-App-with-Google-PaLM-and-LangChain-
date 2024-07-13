@@ -1,7 +1,5 @@
-Here's a Markdown version of your README file that matches the content and structure of your notebook:
 
-```markdown
-# Welcome!
+# Asalam alaikum warahmatullah wabarakatu!
 
 I'm Mustafa Shoukat, a Generative AI Expert. I'm in the world of LLMs and exploring various concepts and techniques to enhance my skills. In this repository, I'll unlock the potential of Google PaLM for code generation with precision and efficiency.
 
@@ -15,16 +13,15 @@ Dive into code generation using Google PaLM and LangChain in this notebook. 💻
 |----------------|--------------------------------|----------|-------------------------|--------------------------|---------------------------|
 | Mustafa Shoukat | mustafashoukat.ai@gmail.com    | [LinkedIn Badge](https://www.linkedin.com/in/mustafashoukat/) | [GitHub Badge](https://github.com/Mustafa-Shoukat1) | [Kaggle Badge](https://www.kaggle.com/mustafashoukat) | [LeetCode Badge](https://leetcode.com/u/MustafaShoukat/) |
 
+
+![Sample Image](https://i.ytimg.com/vi/R6WNU28MgQ0/maxresdefault.jpg)
 ## Installing Libraries
 
-```python
-!pip install langchain langchain_community
-!pip install google-generativeai
-```
+
 
 ## Integrating Google PaLM LLM with LangChain using API
 
-![Sample Image](https://i.ytimg.com/vi/R6WNU28MgQ0/maxresdefault.jpg)
+
 
 ```python
 from langchain.llms import GooglePalm
