@@ -134,3 +134,7 @@ print("="*50 + "\n")
                 <td style="padding: 8px;">
                     <a href="https://leetcode.com/u/MustafaShoukat/" target="_blank">
                         <img src="https://img.sh
+
+
+[Code Gen App | Google PaLM & LangChain 🚀💻](https://www.kaggle.com/code/mustafashoukat/code-gen-app-google-palm-langchain/edit)
+
